@@ -11,7 +11,8 @@ average_grade(self): Returns the average of all grades.
 display_info(self): Prints the student’s name, email, and grades."""
 
 
-class Student:    def __init__(self, name, email):
+class Student:    
+    def __init__(self, name, email):
         """Initialize the Student object with name and email."""
         self.name = name
         self.email = email
